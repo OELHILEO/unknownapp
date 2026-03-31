@@ -80,7 +80,8 @@ flowchart TD
         LOAD["loadData()&#10;Gson ← JSON files"]
         SAVE["saveData()&#10;Gson → JSON files"]
     end
-    LOAD -. data/students.json · data/courses.json .-> SAVE
+
+    LOAD -.->|students.json / courses.json| SAVE
 ```
 
 ### Prompts
