@@ -1,0 +1,32 @@
+[
+  {
+    "id": "S001",
+    "name": "Alice Johnson",
+    "email": "alice@university.edu",
+    "completedCourses": [
+      "CS101",
+      "MATH101"
+    ],
+    "enrolledCourses": [
+      "CS201"
+    ],
+    "schedule": [
+      {
+        "courseId": "CS201",
+        "timeSlot": "MWF 9:00-10:00"
+      }
+    ],
+    "balance": 1500.0
+  },
+  {
+    "id": "S002",
+    "name": "Bob Smith",
+    "email": "bob@university.edu",
+    "completedCourses": [
+      "CS101"
+    ],
+    "enrolledCourses": [],
+    "schedule": [],
+    "balance": 0.0
+  }
+]
